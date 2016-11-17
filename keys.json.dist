@@ -1,5 +1,11 @@
 {
   "apitoken": "",
   "apiSpace" : "",
-  "type" : ""
+  "type" : "",
+  "mysqlUserName" : "",
+  "mysqlPort" : "",
+  "mysqlPassword" : "",
+  "mysqlDbName" : "",
+  "mysqlHost" : "",
+  "mysqlTable" : ""
 }

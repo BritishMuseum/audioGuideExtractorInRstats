@@ -21,7 +21,7 @@ library(rjson)
 library(jsonlite)
 
 
-# Set up tokens and types (move to external file)
+# Set up tokens and types
 keys <- fromJSON('keys.json')
 apiToken <- keys$apitoken
 apiUrl <- 'https://cdn.contentful.com/spaces/'
