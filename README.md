@@ -1,6 +1,8 @@
 Audioguide data extraction in Rstats.
 =====================================
 
+[![DOI](https://zenodo.org/badge/72210075.svg)](https://zenodo.org/badge/latestdoi/72210075)
+
 This set of scripts allows one to extract data from the contentful API, and the MySQL backend to create a 
 set of csv files of data drawn from the entries created by the audioguide's users. 
 
