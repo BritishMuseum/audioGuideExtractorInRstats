@@ -6,7 +6,7 @@
 #' ----
 
 # Set up working directory
-setwd("~/Documents/research/contentful/") #MacOSX
+setwd("/Users/danielpett/Documents/audioGuideExtractorInRstats") #MacOSX
 
 # List of packages needed
 list.of.packages <- c("rjson", "RCurl","jsonlite")
