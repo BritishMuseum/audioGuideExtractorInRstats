@@ -79,8 +79,8 @@ export$title <- vapply(export$title, paste, collapse = ", ", character(1L))
 
 # Order the data fields
 preforder <- c(
-  'key',"title", "id", "number", "oldStopNumber", 
-  'revision', 'createdAt', 'updatedAt'
+  "key","title", "id", "number", "oldStopNumber", 
+  "revision", "createdAt", "updatedAt"
 )  
 
 # Set prefered order

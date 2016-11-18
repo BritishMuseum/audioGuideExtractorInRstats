@@ -32,6 +32,8 @@ values for the keys.
 You will need to set the working directory to where ever you will be working and storing data. To do this, edit
 line 9 in the audioGuide.R file and line 10 in audioGuideMySQLextractor
 
+To edit one of these files, one could use nano or a text editor. The nano example is below:
+
 ````
     $ nano audioGuide.R
 ````
@@ -39,12 +41,25 @@ line 9 in the audioGuide.R file and line 10 in audioGuideMySQLextractor
 Output
 ======
 
-Each script creates a csv file when run in R. 
+Each script creates a csv file when run in R.
+
+Schemas returned
+================
+
+For contentful meta data the columns returned are:
+
+> "key","title", "id", "number", "oldStopNumber", "revision", "createdAt", "updatedAt"
+
+For audioguide mysql meta data, the columns returned are:
+
+> "id", "email", "locale", "started", "ended", "subscribed", "stops", "payload", "created"
+
+The stops and payload field contains json data.
 
 Author
 ======
 
-Daniel Pett <dpett @ britishmuseum dot org>
+Daniel Pett <dpett@britishmuseum.org>
 
 License
 =======
